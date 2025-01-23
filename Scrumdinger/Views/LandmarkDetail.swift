@@ -49,6 +49,7 @@ struct LandmarkDetail: View {
 }
 
 #Preview {
+    let landmarks = ModelData().landmarks
     LandmarkDetail(
         landmark: landmarks[0]
     )
